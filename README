@@ -1,0 +1,5 @@
+this is the 1 Kt standard from AFWL written by c. needham.
+there is a fortran 77 version, python and c++ version coded by harperrc
+and there is a f90 version available from https://github.com/GlenFlint/1KT-Nuclear-Blast-Standard
+
+the c++ and f77 version include a simple driver and makefile for gnu c++ & gfortran
