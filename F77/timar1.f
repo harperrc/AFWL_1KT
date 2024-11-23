@@ -42,7 +42,7 @@ c  compute time of shock arrival
      *      2.69d0 * r2) * r**8
       u   = top / bot
 
-      timar1 = u
+      timar1 = u * 0.001 * y13
 
       if (x.lt.xm)return
 
@@ -58,6 +58,7 @@ c  if in mach region
       w   = top / bot
 
       timar1 = u * xm / x + w * (1.0d0 - xm / x)
+      timar1 = timar1 * 0.001 * y13
 
       return
       end
