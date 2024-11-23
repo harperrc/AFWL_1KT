@@ -31,7 +31,7 @@ double timar(double grft,
 
    double tau  = top / bot;
 
-   if (x < xm)return (0.001 * tau);
+   if (x < xm)return (0.001 * tau * y13);
 
 //  if in mach region
 
@@ -43,7 +43,7 @@ double timar(double grft,
 
    tau = tau * xm / x + w * ( 1.0 - xm / x);
 
-   return (0.001 * tau);
+   return (0.001 * tau * y13);
 }
 int main(int argc,char *argv[])
 {
