@@ -5,7 +5,6 @@
 import math
 import numpy as np
 import sys
-from nuclib import *
 
 class matm62:
    def __init__(self):
